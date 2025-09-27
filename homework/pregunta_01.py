@@ -6,7 +6,7 @@ librerias de pandas para resolver las preguntas.
 """
 
 import pandas as pd
-path = r'files\input\tbl0.tsv'
+path = r'files/input/tbl0.tsv'
 #print(path)
 
 def pregunta_01():

@@ -5,8 +5,8 @@ datos requeridos se encuentran en los archivos `tbl0.tsv`, `tbl1.tsv` y
 librerias de pandas para resolver las preguntas.
 """
 import pandas as pd
-path_0 = r'files\input\tbl0.tsv'
-path_2 = r'files\input\tbl2.tsv'
+path_0 = r'files/input/tbl0.tsv'
+path_2 = r'files/input/tbl2.tsv'
 df_0 = pd.read_csv(path_0, sep='\t', header=0)
 df_2 = pd.read_csv(path_2, sep='\t', header=0)
 
